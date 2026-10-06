@@ -1,7 +1,7 @@
 .screen {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 40px;
+  padding: 48px 64px;
 }
 h1 { font-size: 48px; margin: 0 0 24px; }
 h2 { font-size: 32px; margin: 0 0 8px; }
@@ -35,3 +35,5 @@ h2 { font-size: 32px; margin: 0 0 8px; }
 .card { background: #182033; border-radius: 16px; padding: 24px; font-size: 24px; }
 .card span { opacity: 0.6; font-size: 24px; }
 .reason { color: #ffd34d; }
+.chip:focus, .big:focus { transform: scale(1.08); }
+.chip, .big { transition: transform 0.1s; }

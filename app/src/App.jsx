@@ -1,6 +1,7 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import catalog from "./data/catalog.json";
 import { pickMovies } from "./logic/scoring.js";
+import { moveFocus } from "./logic/dpad.js";
 import "./App.css";
 
 const MOODS = ["funny", "exciting", "relaxed", "scary"];
@@ -13,6 +14,30 @@ export default function App() {
   ]);
   const [minutes, setMinutes] = useState(120);
   const [results, setResults] = useState(null);
+    // Remote control: arrows move focus, Back returns to the start screen
+  useEffect(() => {
+    function onKey(e) {
+      if (e.key.startsWith("Arrow")) {
+        e.preventDefault();
+        moveFocus(e.key);
+      } else if (
+        e.key === "Escape" ||
+        e.key === "Backspace" ||
+        e.key === "GoBack" ||
+        e.keyCode === 4
+      ) {
+        e.preventDefault();
+        setResults(null);
+      }
+    }
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, []);
+
+  // Put focus on the first button whenever the screen changes
+  useEffect(() => {
+    document.querySelector("button")?.focus();
+  }, [results]);
 
   function updatePerson(i, field, value) {
     setPeople(people.map((p, idx) => (idx === i ? { ...p, [field]: value } : p)));
