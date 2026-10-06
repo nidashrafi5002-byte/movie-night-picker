@@ -1,122 +1,120 @@
-import { useState } from 'react'
-import heroImg from './assets/hero.png'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import './App.css'
+import { useState } from "react";
+import catalog from "./data/catalog.json";
+import { pickMovies } from "./logic/scoring.js";
+import "./App.css";
 
-function App() {
-  const [count, setCount] = useState(0)
+const MOODS = ["funny", "exciting", "relaxed", "scary"];
+const AGES = [5, 8, 12, 16, 30];
+const TIMES = [45, 90, 120, 180];
+
+export default function App() {
+  const [people, setPeople] = useState([
+    { name: "Person 1", age: 30, mood: "funny" },
+  ]);
+  const [minutes, setMinutes] = useState(120);
+  const [results, setResults] = useState(null);
+
+  function updatePerson(i, field, value) {
+    setPeople(people.map((p, idx) => (idx === i ? { ...p, [field]: value } : p)));
+  }
+
+  function addPerson() {
+    if (people.length >= 6) return;
+    setPeople([
+      ...people,
+      { name: `Person ${people.length + 1}`, age: 30, mood: "funny" },
+    ]);
+  }
+
+  function removePerson() {
+    if (people.length > 1) setPeople(people.slice(0, -1));
+  }
+
+  if (results) {
+    return (
+      <main className="screen">
+        <h1>Tonight's picks</h1>
+        {results.length === 0 && (
+          <p className="card">
+            No film fits. Try more time or a different group.
+          </p>
+        )}
+        <div className="cards">
+          {results.map((m) => (
+            <div className="card" key={m.id}>
+              <h2>
+                {m.title} <span>({m.year})</span>
+              </h2>
+              <p>{m.blurb}</p>
+              <p className="reason">{m.reason}</p>
+            </div>
+          ))}
+        </div>
+        <button className="big" onClick={() => setResults(null)}>
+          Start over
+        </button>
+      </main>
+    );
+  }
 
   return (
-    <>
-      <section id="center">
-        <div className="hero">
-          <img src={heroImg} className="base" width="170" height="179" alt="" />
-          <img src={reactLogo} className="framework" alt="React logo" />
-          <img src={viteLogo} className="vite" alt="Vite logo" />
-        </div>
-        <div>
-          <h1>Get started</h1>
-          <p>
-            Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
-          </p>
-        </div>
-        <button
-          type="button"
-          className="counter"
-          onClick={() => setCount((count) => count + 1)}
-        >
-          Count is {count}
-        </button>
-      </section>
+    <main className="screen">
+      <h1>Movie Night Picker</h1>
 
-      <div className="ticks"></div>
+      {people.map((p, i) => (
+        <section className="person" key={i}>
+          <h2>{p.name}</h2>
+          <div className="row">
+            <span className="label">Age</span>
+            {AGES.map((a) => (
+              <button
+                key={a}
+                className={`chip ${p.age === a ? "selected" : ""}`}
+                onClick={() => updatePerson(i, "age", a)}
+              >
+                {a === 30 ? "Adult" : a}
+              </button>
+            ))}
+          </div>
+          <div className="row">
+            <span className="label">Mood</span>
+            {MOODS.map((m) => (
+              <button
+                key={m}
+                className={`chip ${p.mood === m ? "selected" : ""}`}
+                onClick={() => updatePerson(i, "mood", m)}
+              >
+                {m}
+              </button>
+            ))}
+          </div>
+        </section>
+      ))}
 
-      <section id="next-steps">
-        <div id="docs">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#documentation-icon"></use>
-          </svg>
-          <h2>Documentation</h2>
-          <p>Your questions, answered</p>
-          <ul>
-            <li>
-              <a href="https://vite.dev/" target="_blank">
-                <img className="logo" src={viteLogo} alt="" />
-                Explore Vite
-              </a>
-            </li>
-            <li>
-              <a href="https://react.dev/" target="_blank">
-                <img className="button-icon" src={reactLogo} alt="" />
-                Learn more
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div id="social">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#social-icon"></use>
-          </svg>
-          <h2>Connect with us</h2>
-          <p>Join the Vite community</p>
-          <ul>
-            <li>
-              <a href="https://github.com/vitejs/vite" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#github-icon"></use>
-                </svg>
-                GitHub
-              </a>
-            </li>
-            <li>
-              <a href="https://chat.vite.dev/" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#discord-icon"></use>
-                </svg>
-                Discord
-              </a>
-            </li>
-            <li>
-              <a href="https://x.com/vite_js" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#x-icon"></use>
-                </svg>
-                X.com
-              </a>
-            </li>
-            <li>
-              <a href="https://bsky.app/profile/vite.dev" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#bluesky-icon"></use>
-                </svg>
-                Bluesky
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
+      <div className="row">
+        <button className="chip" onClick={addPerson}>+ Add person</button>
+        <button className="chip" onClick={removePerson}>- Remove person</button>
+      </div>
 
-      <div className="ticks"></div>
-      <section id="spacer"></section>
-    </>
-  )
+      <div className="row">
+        <span className="label">Time</span>
+        {TIMES.map((t) => (
+          <button
+            key={t}
+            className={`chip ${minutes === t ? "selected" : ""}`}
+            onClick={() => setMinutes(t)}
+          >
+            {t} min
+          </button>
+        ))}
+      </div>
+
+      <button
+        className="big"
+        onClick={() => setResults(pickMovies(people, minutes, catalog))}
+      >
+        Find my movie
+      </button>
+    </main>
+  );
 }
-
-export default App
