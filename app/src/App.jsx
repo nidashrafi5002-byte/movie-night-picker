@@ -130,6 +130,7 @@ export default function App() {
         <div className="cards">
           {results.map((m) => (
             <div className="card" key={m.id}>
+              <p className="tag">{m.tag}</p>
               <h2>
                 {m.title} <span>({m.year})</span>
               </h2>

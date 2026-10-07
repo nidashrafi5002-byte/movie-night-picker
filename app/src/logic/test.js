@@ -6,6 +6,9 @@ const catalog = JSON.parse(
 );
 const people = [
   { name: "Sam", age: 30, mood: "funny" },
-  { name: "Mia", age: 9, mood: "relaxed" },
+  { name: "Mia", age: 8, mood: "relaxed" },
+  { name: "Dad", age: 30, mood: "exciting" },
 ];
-console.log(pickMovies(people, 100, catalog));
+for (const m of pickMovies(people, 120, catalog)) {
+  console.log(`${m.title} [${m.tag}]\n  ${m.reason}\n`);
+}
