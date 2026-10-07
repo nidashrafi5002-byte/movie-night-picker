@@ -1,0 +1,856 @@
+[
+  {
+    "id": "sex_madness",
+    "title": "Sex Madness",
+    "year": 1938,
+    "minutes": 52,
+    "minAge": 6,
+    "moods": [
+      "relaxed"
+    ],
+    "blurb": "This is a typical sex exploitation film from the early 1930s - complete with wild parties, sex out of wedlock, lesbianism, etc. A chorus gir",
+    "video": "https://archive.org/download/sex_madness/sex_madness_512kb.mp4",
+    "license": "http://creativecommons.org/licenses/publicdomain/",
+    "page": "https://archive.org/details/sex_madness"
+  },
+  {
+    "id": "charlie_chaplin_film_fest",
+    "title": "Charlie Chaplin Festival",
+    "year": 1938,
+    "minutes": 77,
+    "minAge": 6,
+    "moods": [
+      "funny"
+    ],
+    "blurb": "Four Chaplin shorts from 1917: The Adventurer, The Cure, Easy Street and The Immigrant, presented with music and sound effects.\n\nYou can fin",
+    "video": "https://archive.org/download/charlie_chaplin_film_fest/charlie_chaplin_film_fest_512kb.mp4",
+    "license": "http://creativecommons.org/licenses/publicdomain/",
+    "page": "https://archive.org/details/charlie_chaplin_film_fest"
+  },
+  {
+    "id": "TheFastandtheFuriousJohnIreland1954goofyrip",
+    "title": "The Fast And The Furious",
+    "year": 1955,
+    "minutes": 73,
+    "minAge": 10,
+    "moods": [
+      "exciting"
+    ],
+    "blurb": "http://imdb.com/title/tt0046969/\nA man wrongly imprisoned for murder (John Ireland) breaks out of jail. He wants to clear his name, but with",
+    "video": "https://archive.org/download/TheFastandtheFuriousJohnIreland1954goofyrip/TheFastandtheFuriousJohnIreland1954goofyrip_512kb.mp4",
+    "license": "",
+    "page": "https://archive.org/details/TheFastandtheFuriousJohnIreland1954goofyrip"
+  },
+  {
+    "id": "his_girl_friday",
+    "title": "His Girl Friday",
+    "year": 1940,
+    "minutes": 92,
+    "minAge": 6,
+    "moods": [
+      "funny",
+      "relaxed"
+    ],
+    "blurb": "Hilarious romantic comedy starring Cary Grant and Rosalind Russell.  Russell is rough and tumble reporter looking to get out of the news rac",
+    "video": "https://archive.org/download/his_girl_friday/his_girl_friday_512kb.mp4",
+    "license": "http://creativecommons.org/licenses/publicdomain/",
+    "page": "https://archive.org/details/his_girl_friday"
+  },
+  {
+    "id": "house_on_haunted_hill_ipod",
+    "title": "House on Haunted Hill",
+    "year": 1959,
+    "minutes": 75,
+    "minAge": 14,
+    "moods": [
+      "scary",
+      "exciting"
+    ],
+    "blurb": "Frederick Loren has invited five strangers to a party of a lifetime. He is offering each of them $10,000 if they can stay the night in a hou",
+    "video": "https://archive.org/download/house_on_haunted_hill_ipod/house_on_haunted_hill_512kb.mp4",
+    "license": "http://creativecommons.org/licenses/publicdomain/",
+    "page": "https://archive.org/details/house_on_haunted_hill_ipod"
+  },
+  {
+    "id": "JungleBook",
+    "title": "Jungle Book",
+    "year": 1942,
+    "minutes": 105,
+    "minAge": 10,
+    "moods": [
+      "exciting"
+    ],
+    "blurb": "Teenaged Mowgli, who was raised by wolves, appears in a village in India and is adopted by Messua. Mowgli learns human language and some hum",
+    "video": "https://archive.org/download/JungleBook/Jungle_Book_512kb.mp4",
+    "license": "http://creativecommons.org/licenses/publicdomain/",
+    "page": "https://archive.org/details/JungleBook"
+  },
+  {
+    "id": "reefer_madness1938",
+    "title": "Reefer Madness",
+    "year": 1938,
+    "minutes": 68,
+    "minAge": 6,
+    "moods": [
+      "relaxed"
+    ],
+    "blurb": "Considered THE archetypal sensationalized anti-drug movie, but it's really an exploitation film made to capitalize on the hot taboo subject ",
+    "video": "https://archive.org/download/reefer_madness1938/reefer_madness1938_512kb.mp4",
+    "license": "http://creativecommons.org/licenses/publicdomain/",
+    "page": "https://archive.org/details/reefer_madness1938"
+  },
+  {
+    "id": "utopia",
+    "title": "Utopia",
+    "year": 1951,
+    "minutes": 142,
+    "minAge": 6,
+    "moods": [
+      "relaxed"
+    ],
+    "blurb": "Utopia (also known as Atoll K and Robinson Crusoe Land) is last film Laurel and Hardy made together. It was filmed and produced in Europe.",
+    "video": "https://archive.org/download/utopia/Utopia_512kb.mp4",
+    "license": "",
+    "page": "https://archive.org/details/utopia"
+  },
+  {
+    "id": "The_Pied_Piper_of_Hamelin",
+    "title": "The Pied Piper of Hamelin",
+    "year": 1957,
+    "minutes": 23,
+    "minAge": 6,
+    "moods": [
+      "relaxed"
+    ],
+    "blurb": "Stars Van Johnson, Claude Rains, Jim Backus\n\nTagline:\n\"Now! a giant color spectacle! from the pages of the immortal classics comes this famo",
+    "video": "https://archive.org/download/The_Pied_Piper_of_Hamelin/pied_512kb.mp4",
+    "license": "http://creativecommons.org/licenses/publicdomain/",
+    "page": "https://archive.org/details/The_Pied_Piper_of_Hamelin"
+  },
+  {
+    "id": "nazi_concentration_camps",
+    "title": "Nazi Concentration Camps",
+    "year": 1945,
+    "minutes": 59,
+    "minAge": 10,
+    "moods": [
+      "exciting"
+    ],
+    "blurb": "**This film contains extremely graphic scenes of human suffering, please exercise caution when viewing.**\nCompilation footage of Nazi concen",
+    "video": "https://archive.org/download/nazi_concentration_camps/nazi_concentration_camps_512kb.mp4",
+    "license": "http://creativecommons.org/licenses/publicdomain/",
+    "page": "https://archive.org/details/nazi_concentration_camps"
+  },
+  {
+    "id": "BloodyPitOfHorror",
+    "title": "Bloody Pit of Horror",
+    "year": 1965,
+    "minutes": 82,
+    "minAge": 14,
+    "moods": [
+      "scary"
+    ],
+    "blurb": "A group of models and cameramen go to a castle to shoot covers for horror novels where they're captured and tortured by the castle's owner, ",
+    "video": "https://archive.org/download/BloodyPitOfHorror/BloodyPitOfHorror.mp4",
+    "license": "http://creativecommons.org/licenses/publicdomain/",
+    "page": "https://archive.org/details/BloodyPitOfHorror"
+  },
+  {
+    "id": "abraham_lincoln",
+    "title": "Abraham Lincoln",
+    "year": 1930,
+    "minutes": 85,
+    "minAge": 6,
+    "moods": [
+      "relaxed"
+    ],
+    "blurb": "A biography of the beloved United States president by D. W. Griffith.\n\nYou can find more information regarding this film on its IMDb page.",
+    "video": "https://archive.org/download/abraham_lincoln/abraham_lincoln_512kb.mp4",
+    "license": "http://creativecommons.org/licenses/publicdomain/",
+    "page": "https://archive.org/details/abraham_lincoln"
+  },
+  {
+    "id": "dressed_to_kill",
+    "title": "Dressed To Kill",
+    "year": 1946,
+    "minutes": 72,
+    "minAge": 10,
+    "moods": [
+      "exciting"
+    ],
+    "blurb": "Aka 'Sherlock Holmes in Dressed To Kill' - features Basil Rathbone as Sherlock Holmes.\n\nYou can find more information regarding this film on",
+    "video": "https://archive.org/download/dressed_to_kill/dressed_to_kill_512kb.mp4",
+    "license": "http://creativecommons.org/licenses/publicdomain/",
+    "page": "https://archive.org/details/dressed_to_kill"
+  },
+  {
+    "id": "DiaryofaNudist",
+    "title": "Diary of a Nudist",
+    "year": 1961,
+    "minutes": 71,
+    "minAge": 6,
+    "moods": [
+      "relaxed"
+    ],
+    "blurb": "The Film follows a reporter (Davee Decker) as she infiltrates a nudist colony in the hopes of exposing its immoral ways. \nHowever, once ther",
+    "video": "https://archive.org/download/DiaryofaNudist/DiaryofaNudist_512kb.mp4",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "page": "https://archive.org/details/DiaryofaNudist"
+  },
+  {
+    "id": "suddenly",
+    "title": "Suddenly",
+    "year": 1954,
+    "minutes": 76,
+    "minAge": 10,
+    "moods": [
+      "exciting"
+    ],
+    "blurb": "\"Three gunmen, who have been hired to assassinate the President, hold a family hostage while waiting for their target. Interesting B film wh",
+    "video": "https://archive.org/download/suddenly/suddenly_512kb.mp4",
+    "license": "http://creativecommons.org/licenses/publicdomain/",
+    "page": "https://archive.org/details/suddenly"
+  },
+  {
+    "id": "TheStranger_0",
+    "title": "The Stranger",
+    "year": 1946,
+    "minutes": 91,
+    "minAge": 10,
+    "moods": [
+      "exciting"
+    ],
+    "blurb": "Set Connecticut after World War II, The Stranger is a cat and mouse game between Wilson (Edward G. Robinson), a member of the Allied War Cri",
+    "video": "https://archive.org/download/TheStranger_0/The_Stranger_512kb.mp4",
+    "license": "http://creativecommons.org/licenses/publicdomain/",
+    "page": "https://archive.org/details/TheStranger_0"
+  },
+  {
+    "id": "tarzans_revenge",
+    "title": "Tarzan's Revenge",
+    "year": 1938,
+    "minutes": 70,
+    "minAge": 10,
+    "moods": [
+      "exciting"
+    ],
+    "blurb": "You can find more information regarding this film on its IMDb page.",
+    "video": "https://archive.org/download/tarzans_revenge/tarzans_revenge_512kb.mp4",
+    "license": "http://creativecommons.org/licenses/publicdomain/",
+    "page": "https://archive.org/details/tarzans_revenge"
+  },
+  {
+    "id": "mclintok_widescreen",
+    "title": "McLintock!",
+    "year": 1963,
+    "minutes": 127,
+    "minAge": 10,
+    "moods": [
+      "funny",
+      "exciting"
+    ],
+    "blurb": "John Wayne Comedy Western filmed in widescreeen.",
+    "video": "https://archive.org/download/mclintok_widescreen/McLintock_512kb.mp4",
+    "license": "http://creativecommons.org/licenses/publicdomain/",
+    "page": "https://archive.org/details/mclintok_widescreen"
+  },
+  {
+    "id": "Mclintock.avi",
+    "title": "Mclintock",
+    "year": 1963,
+    "minutes": 127,
+    "minAge": 10,
+    "moods": [
+      "funny",
+      "exciting"
+    ],
+    "blurb": "This great comedy western stars John Wayne,Maureen O'Hara,Patrick Wayne, Stefanie Powers,Chill Wills, and Strother Marten. There is a hilari",
+    "video": "https://archive.org/download/Mclintock.avi/Mclintock_512kb.mp4",
+    "license": "",
+    "page": "https://archive.org/details/Mclintock.avi"
+  },
+  {
+    "id": "my_favorite_brunette",
+    "title": "My Favorite Brunette",
+    "year": 1947,
+    "minutes": 87,
+    "minAge": 6,
+    "moods": [
+      "funny"
+    ],
+    "blurb": "Bob Hope comedy with Dorothy Lamour. | \nYou can find more information regarding this film on its IMDb page.",
+    "video": "https://archive.org/download/my_favorite_brunette/my_favorite_brunette_512kb.mp4",
+    "license": "http://creativecommons.org/licenses/publicdomain/",
+    "page": "https://archive.org/details/my_favorite_brunette"
+  },
+  {
+    "id": "gullivers_travels1939",
+    "title": "Gulliver's Travels",
+    "year": 1939,
+    "minutes": 73,
+    "minAge": 6,
+    "moods": [
+      "relaxed"
+    ],
+    "blurb": "You can find more information regarding this film on its IMDb page.",
+    "video": "https://archive.org/download/gullivers_travels1939/gullivers_travels1939_512kb.mp4",
+    "license": "http://creativecommons.org/licenses/publicdomain/",
+    "page": "https://archive.org/details/gullivers_travels1939"
+  },
+  {
+    "id": "ThePhantomoftheOpera",
+    "title": "The Phantom of the Opera",
+    "year": 1925,
+    "minutes": 106,
+    "minAge": 14,
+    "moods": [
+      "scary"
+    ],
+    "blurb": "At the Opera of Paris, a mysterious phantom threatens a famous lyric singer, Carlotta and thus forces her to give up her role (Marguerite in",
+    "video": "https://archive.org/download/ThePhantomoftheOpera/Phantom_of_the_Opera_512kb.mp4",
+    "license": "http://creativecommons.org/licenses/publicdomain/",
+    "page": "https://archive.org/details/ThePhantomoftheOpera"
+  },
+  {
+    "id": "House_On_Haunted_Hill.avi",
+    "title": "The House On Haunted Hill",
+    "year": 1959,
+    "minutes": 75,
+    "minAge": 14,
+    "moods": [
+      "scary"
+    ],
+    "blurb": "Vincent Price gives a stellar performance as the suavely malevolent host of a \"haunted house party\" who offers his guests $10,000 if they ca",
+    "video": "https://archive.org/download/House_On_Haunted_Hill.avi/The_House_on_Haunted_Hill_512kb.mp4",
+    "license": "",
+    "page": "https://archive.org/details/House_On_Haunted_Hill.avi"
+  },
+  {
+    "id": "lost_world",
+    "title": "The Lost World",
+    "year": 1925,
+    "minutes": 68,
+    "minAge": 10,
+    "moods": [
+      "exciting"
+    ],
+    "blurb": "The first film adaptation of Sir Arthur Conan Doyle's classic novel about a land where prehistoric creatures still roam.You can find more in",
+    "video": "https://archive.org/download/lost_world/lost_world_512kb.mp4",
+    "license": "http://creativecommons.org/licenses/publicdomain/",
+    "page": "https://archive.org/details/lost_world"
+  },
+  {
+    "id": "Killers_from_space",
+    "title": "Killers From Space",
+    "year": 1954,
+    "minutes": 71,
+    "minAge": 6,
+    "moods": [
+      "relaxed"
+    ],
+    "blurb": "Attack by monsters from another planet!\n\nIMDB page",
+    "video": "https://archive.org/download/Killers_from_space/Killers_from_space_512kb.mp4",
+    "license": "http://creativecommons.org/licenses/publicdomain/",
+    "page": "https://archive.org/details/Killers_from_space"
+  },
+  {
+    "id": "sex_madness_ACM",
+    "title": "Sex Madness",
+    "year": 1938,
+    "minutes": 52,
+    "minAge": 6,
+    "moods": [
+      "relaxed"
+    ],
+    "blurb": "From the makers of Reefer Madness comes Sex Madness. A film demonstrating that sex can be just as detrimental as marijuana.",
+    "video": "https://archive.org/download/sex_madness_ACM/sex_madness_512kb.mp4",
+    "license": "http://creativecommons.org/licenses/publicdomain/",
+    "page": "https://archive.org/details/sex_madness_ACM"
+  },
+  {
+    "id": "AsYouLikeIt1936",
+    "title": "As You Like It",
+    "year": 1936,
+    "minutes": 96,
+    "minAge": 6,
+    "moods": [
+      "funny",
+      "relaxed"
+    ],
+    "blurb": "In this first film version of William Shakespeare's classic pastoral comedy, Sir Laurence Olivier stars as Orlando while Elisabeth Bergner i",
+    "video": "https://archive.org/download/AsYouLikeIt1936/AsYouLikeIt_512kb.mp4",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "page": "https://archive.org/details/AsYouLikeIt1936"
+  },
+  {
+    "id": "royal_wedding",
+    "title": "Royal Wedding",
+    "year": 1951,
+    "minutes": 92,
+    "minAge": 6,
+    "moods": [
+      "funny",
+      "relaxed"
+    ],
+    "blurb": "Brother and sister dancing duo Tom and Ellen Bowen (Fred Astaire and Jane Powell) travel to merry old England.  There, against the backdrop ",
+    "video": "https://archive.org/download/royal_wedding/royal_wedding_512kb.mp4",
+    "license": "http://creativecommons.org/licenses/publicdomain/",
+    "page": "https://archive.org/details/royal_wedding"
+  },
+  {
+    "id": "ScarletStreet",
+    "title": "Scarlet Street",
+    "year": 1945,
+    "minutes": 101,
+    "minAge": 10,
+    "moods": [
+      "funny",
+      "exciting"
+    ],
+    "blurb": "German director Fritz Lang is best known for the highly influential films from relatively early in his career, especially Metropolis (1927) ",
+    "video": "https://archive.org/download/ScarletStreet/Scarlet_Street_512kb.mp4",
+    "license": "http://creativecommons.org/licenses/publicdomain/",
+    "page": "https://archive.org/details/ScarletStreet"
+  },
+  {
+    "id": "meet_john_doe",
+    "title": "Meet John Doe",
+    "year": 1941,
+    "minutes": 123,
+    "minAge": 6,
+    "moods": [
+      "funny"
+    ],
+    "blurb": "You can find more information regarding this film on its IMDb page.",
+    "video": "https://archive.org/download/meet_john_doe/meet_john_doe_512kb.mp4",
+    "license": "http://creativecommons.org/licenses/publicdomain/",
+    "page": "https://archive.org/details/meet_john_doe"
+  },
+  {
+    "id": "TheFlyingDeuces",
+    "title": "The Flying Deuces",
+    "year": 1939,
+    "minutes": 68,
+    "minAge": 6,
+    "moods": [
+      "funny"
+    ],
+    "blurb": "This was the first comedy that Laurel and Hardy starred in without producer Hal Roach, although they had previously been \"guest stars\" in fo",
+    "video": "https://archive.org/download/TheFlyingDeuces/The_Flying_Deuces_512kb.mp4",
+    "license": "http://creativecommons.org/licenses/publicdomain/",
+    "page": "https://archive.org/details/TheFlyingDeuces"
+  },
+  {
+    "id": "little_princess",
+    "title": "Little Princess, The",
+    "year": 1939,
+    "minutes": 93,
+    "minAge": 6,
+    "moods": [
+      "relaxed"
+    ],
+    "blurb": "You can find more information regarding this film on its IMDb page.\n\nThis film contributed courtesy of SabuCat Productions.",
+    "video": "https://archive.org/download/little_princess/little_princess_512kb.mp4",
+    "license": "http://creativecommons.org/licenses/publicdomain/",
+    "page": "https://archive.org/details/little_princess"
+  },
+  {
+    "id": "impact",
+    "title": "Impact",
+    "year": 1949,
+    "minutes": 110,
+    "minAge": 6,
+    "moods": [
+      "relaxed"
+    ],
+    "blurb": "\"Wealthy businessman survives attempt by wife to have him killed, makes it look like she succeeded and starts a new life in small town as au",
+    "video": "https://archive.org/download/impact/impact_512kb.mp4",
+    "license": "http://creativecommons.org/licenses/publicdomain/",
+    "page": "https://archive.org/details/impact"
+  },
+  {
+    "id": "Cyrano_DeBergerac",
+    "title": "Cyrano De Bergerac",
+    "year": 1950,
+    "minutes": 113,
+    "minAge": 6,
+    "moods": [
+      "relaxed"
+    ],
+    "blurb": "From:IMDb:\nFrance, 1640: Cyrano, the charismatic swordsman-poet with the absurd nose, hopelessly loves the beauteous Roxane; she, in turn, c",
+    "video": "https://archive.org/download/Cyrano_DeBergerac/Cyrano_De_Bergerac_512kb.mp4",
+    "license": "http://creativecommons.org/licenses/publicdomain/",
+    "page": "https://archive.org/details/Cyrano_DeBergerac"
+  },
+  {
+    "id": "tarzan_and_the_green_goddess",
+    "title": "Tarzan and the Green Goddess",
+    "year": 1938,
+    "minutes": 67,
+    "minAge": 10,
+    "moods": [
+      "exciting"
+    ],
+    "blurb": "You can find more information regarding this film on its IMDb page.\n\n\n\n",
+    "video": "https://archive.org/download/tarzan_and_the_green_goddess/tarzan_and_the_green_goddess_512kb.mp4",
+    "license": "http://creativecommons.org/licenses/publicdomain/",
+    "page": "https://archive.org/details/tarzan_and_the_green_goddess"
+  },
+  {
+    "id": "CarnivalofSouls",
+    "title": "Carnival of Souls",
+    "year": 1962,
+    "minutes": 83,
+    "minAge": 14,
+    "moods": [
+      "scary",
+      "exciting"
+    ],
+    "blurb": "Atmospheric 60s B-horror film with a cult following.\n\nMary Henry is enjoying the day by riding around with two friends but everything goes w",
+    "video": "https://archive.org/download/CarnivalofSouls/CarnivalOfSouls_512kb.mp4",
+    "license": "http://creativecommons.org/licenses/publicdomain/",
+    "page": "https://archive.org/details/CarnivalofSouls"
+  },
+  {
+    "id": "Quicksand_clear",
+    "title": "Quicksand",
+    "year": 1950,
+    "minutes": 79,
+    "minAge": 10,
+    "moods": [
+      "exciting"
+    ],
+    "blurb": "An engrossing suspense film with Mickey Rooney, Peter Lorre, and Jeanne Cagney. Needing money for a date, Rooney borrows $20 from the cash r",
+    "video": "https://archive.org/download/Quicksand_clear/Quicksand.mp4",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "page": "https://archive.org/details/Quicksand_clear"
+  },
+  {
+    "id": "shame_",
+    "title": "Shame",
+    "year": 1962,
+    "minutes": 82,
+    "minAge": 6,
+    "moods": [
+      "relaxed"
+    ],
+    "blurb": "Shame also known as \"I Hate Your Guts\" \"The Intruder\" is a 1962 film directed by Roger Corman starring William Shatner as a racist mystery m",
+    "video": "https://archive.org/download/shame_/Shame_512kb.mp4",
+    "license": "http://creativecommons.org/licenses/publicdomain/",
+    "page": "https://archive.org/details/shame_"
+  },
+  {
+    "id": "Teaserama",
+    "title": "Teaserama",
+    "year": 1955,
+    "minutes": 67,
+    "minAge": 6,
+    "moods": [
+      "funny"
+    ],
+    "blurb": "This, uh, documentary is a compilation of performances by strippers and comedians featuring Bettie Page and Tempest Storm.\n\nIMDb Page",
+    "video": "https://archive.org/download/Teaserama/Teaserama_512kb.mp4",
+    "license": "http://creativecommons.org/licenses/publicdomain/",
+    "page": "https://archive.org/details/Teaserama"
+  },
+  {
+    "id": "BattleshipPotemkin",
+    "title": "Bronenosets Potyomkin (Battleship Potemkin)",
+    "year": 1925,
+    "minutes": 73,
+    "minAge": 10,
+    "moods": [
+      "exciting"
+    ],
+    "blurb": "Considered one of the most important films in the history of silent pictures, as well as possibly Eisenstein's greatest work, Battleship Pot",
+    "video": "https://archive.org/download/BattleshipPotemkin/Battleship_Potemkin_512kb.mp4",
+    "license": "http://creativecommons.org/licenses/publicdomain/",
+    "page": "https://archive.org/details/BattleshipPotemkin"
+  },
+  {
+    "id": "secret_weapon",
+    "title": "Sherlock Holmes and the Secret Weapon",
+    "year": 1943,
+    "minutes": 69,
+    "minAge": 10,
+    "moods": [
+      "exciting"
+    ],
+    "blurb": "Based on the Sir Authur Conan Doyle story \"The Dancing Men\",  Sherlock Holmes and Dr. Watson are placed in WWII europe to help protect a sci",
+    "video": "https://archive.org/download/secret_weapon/secret_weapon_ipod_512kb.mp4",
+    "license": "http://creativecommons.org/licenses/publicdomain/",
+    "page": "https://archive.org/details/secret_weapon"
+  },
+  {
+    "id": "Five_Minutes_To_Live.avi",
+    "title": "Five Minutes To Live",
+    "year": 1961,
+    "minutes": 74,
+    "minAge": 10,
+    "moods": [
+      "exciting"
+    ],
+    "blurb": "This amazing bank heist movie stars Johnny Cash, Vic Tayback, Ron Howard, and country music great, Merle Travis. Johnny Cash gives a surpris",
+    "video": "https://archive.org/download/Five_Minutes_To_Live.avi/Five_Minutes_to_Live_512kb.mp4",
+    "license": "",
+    "page": "https://archive.org/details/Five_Minutes_To_Live.avi"
+  },
+  {
+    "id": "Nosferatu_most_complete_version_93_mins.",
+    "title": "Nosferatu, eine Symphonie des Grauens (A Symphony of Horror)",
+    "year": 1922,
+    "minutes": 93,
+    "minAge": 14,
+    "moods": [
+      "scary",
+      "exciting"
+    ],
+    "blurb": "This is the most complete version available (just over 93 minutes) as this movie was demanded by Bram Stokers widow to be destroyed after wi",
+    "video": "https://archive.org/download/Nosferatu_most_complete_version_93_mins./Nosferatu_1922_Symphony_of_Horror_512kb.mp4",
+    "license": "",
+    "page": "https://archive.org/details/Nosferatu_most_complete_version_93_mins."
+  },
+  {
+    "id": "TheGhoul",
+    "title": "The Ghoul",
+    "year": 1933,
+    "minutes": 69,
+    "minAge": 14,
+    "moods": [
+      "scary"
+    ],
+    "blurb": "The Ghoul is a 1933 British Horror film starring Boris Karloff, Cedric Hardwicke, Ernest Thesiger and Ralph Richardson, whose debut film thi",
+    "video": "https://archive.org/download/TheGhoul/TheGhoul_1933_512kb.mp4",
+    "license": "http://creativecommons.org/licenses/publicdomain/",
+    "page": "https://archive.org/details/TheGhoul"
+  },
+  {
+    "id": "iron_mask",
+    "title": "The Iron Mask",
+    "year": 1929,
+    "minutes": 72,
+    "minAge": 10,
+    "moods": [
+      "exciting",
+      "relaxed"
+    ],
+    "blurb": "A swashbuckling Alexandre Dumas adventure featuring Douglas Fairbanks.\nYou can find more information regarding this film on its IMDb page.",
+    "video": "https://archive.org/download/iron_mask/iron_mask_512kb.mp4",
+    "license": "http://creativecommons.org/licenses/publicdomain/",
+    "page": "https://archive.org/details/iron_mask"
+  },
+  {
+    "id": "amazing_adventure",
+    "title": "The Amazing Adventure",
+    "year": 1936,
+    "minutes": 62,
+    "minAge": 6,
+    "moods": [
+      "funny",
+      "relaxed"
+    ],
+    "blurb": "Cary Grant plays Earnest Bliss a rich socialite who makes a bet with his doctor that he can make a living for one year using none of his cur",
+    "video": "https://archive.org/download/amazing_adventure/amazing_adventuarchive_512kb.mp4",
+    "license": "http://creativecommons.org/licenses/publicdomain/",
+    "page": "https://archive.org/details/amazing_adventure"
+  },
+  {
+    "id": "teenagers_from_outerspace",
+    "title": "Teenagers from Outer Space",
+    "year": 1959,
+    "minutes": 85,
+    "minAge": 14,
+    "moods": [
+      "scary"
+    ],
+    "blurb": "A young alien (David Love) falls for a pretty teenage Earth girl (Dawn Anderson) and they team up to try to stop the plans of his invading c",
+    "video": "https://archive.org/download/teenagers_from_outerspace/Teenagers_from_Outer_Space_512kb.mp4",
+    "license": "http://creativecommons.org/licenses/publicdomain/",
+    "page": "https://archive.org/details/teenagers_from_outerspace"
+  },
+  {
+    "id": "ChildBride",
+    "title": "Child Bride",
+    "year": 1938,
+    "minutes": 62,
+    "minAge": 6,
+    "moods": [
+      "relaxed"
+    ],
+    "blurb": "Schoolteacher in a rural community campaigns to stop the practice of older men marrying young, underage girls.",
+    "video": "https://archive.org/download/ChildBride/Child_Bride_512kb.mp4",
+    "license": "http://creativecommons.org/licenses/publicdomain/",
+    "page": "https://archive.org/details/ChildBride"
+  },
+  {
+    "id": "mr_robinson_crusoe",
+    "title": "Mr. Robinson Crusoe",
+    "year": 1932,
+    "minutes": 71,
+    "minAge": 10,
+    "moods": [
+      "funny",
+      "exciting"
+    ],
+    "blurb": "Taken from IMDB:\nWhile cruising the South Seas with friends aboard a sailing yacht, it is wagered that Steve can not survive on a desert isl",
+    "video": "https://archive.org/download/mr_robinson_crusoe/mr._robinson_crusoe_512kb.mp4",
+    "license": "http://creativecommons.org/licenses/publicdomain/",
+    "page": "https://archive.org/details/mr_robinson_crusoe"
+  },
+  {
+    "id": "penny_serenade",
+    "title": "Penny Serenade",
+    "year": 1941,
+    "minutes": 119,
+    "minAge": 6,
+    "moods": [
+      "funny",
+      "relaxed"
+    ],
+    "blurb": "Touching romantic comedy starring Cary Grant and Irene Dunne.\n\nFind out more about this film at its IMDB page.",
+    "video": "https://archive.org/download/penny_serenade/penny_serenade_512kb.mp4",
+    "license": "http://creativecommons.org/licenses/publicdomain/",
+    "page": "https://archive.org/details/penny_serenade"
+  },
+  {
+    "id": "Santa_Fe_Trail_movie",
+    "title": "Santa Fe Trail",
+    "year": 1940,
+    "minutes": 110,
+    "minAge": 10,
+    "moods": [
+      "exciting"
+    ],
+    "blurb": "\nThe year is 1854.  Robert E. Lee is Superintendent of West Point, where J.E.B. Stuart (Errol Flynn) and George A. Custer (Ronald Reagan) ar",
+    "video": "https://archive.org/download/Santa_Fe_Trail_movie/Santa_Fe_Trail_512kb.mp4",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "page": "https://archive.org/details/Santa_Fe_Trail_movie"
+  },
+  {
+    "id": "OnlytheValaint",
+    "title": "Only the Valiant",
+    "year": 1951,
+    "minutes": 105,
+    "minAge": 10,
+    "moods": [
+      "exciting"
+    ],
+    "blurb": "Capt. Richard Lance (Gregory Peck) is unjustly held responsible, by his men and his girlfriend (Barbara Payton), for an Indian massacre deat",
+    "video": "https://archive.org/download/OnlytheValaint/OnlytheValaint_512kb.mp4",
+    "license": "http://creativecommons.org/licenses/publicdomain/",
+    "page": "https://archive.org/details/OnlytheValaint"
+  },
+  {
+    "id": "Hitchcock_Secret_Agent",
+    "title": "Secret Agent",
+    "year": 1936,
+    "minutes": 86,
+    "minAge": 6,
+    "moods": [
+      "relaxed"
+    ],
+    "blurb": "From IMDb: During the first world war, novelist Edgar Brodie is sent to Switzerland by the Intelligence Service. He has to kill a German age",
+    "video": "https://archive.org/download/Hitchcock_Secret_Agent/Secret_Agent_512kb.mp4",
+    "license": "http://creativecommons.org/licenses/publicdomain/",
+    "page": "https://archive.org/details/Hitchcock_Secret_Agent"
+  },
+  {
+    "id": "QuevivaMexico",
+    "title": "Que Viva Mexico",
+    "year": 1931,
+    "minutes": 85,
+    "minAge": 6,
+    "moods": [
+      "relaxed"
+    ],
+    "blurb": "Sergei Eisenstein shot ¡Que viva México! in Mexico in 1931 at the height of the Great Depression. The courageous financiers of this project ",
+    "video": "https://archive.org/download/QuevivaMexico/Que.viva.Mexico_512kb.mp4",
+    "license": "http://creativecommons.org/licenses/publicdomain/",
+    "page": "https://archive.org/details/QuevivaMexico"
+  },
+  {
+    "id": "Great_Guy.avi",
+    "title": "Great Guy",
+    "year": 1936,
+    "minutes": 66,
+    "minAge": 10,
+    "moods": [
+      "exciting"
+    ],
+    "blurb": "James Cagney plays the plucky Irish crusader, Johnny Cave, who fights against corruption at the Weights And Measures Department. James Cagne",
+    "video": "https://archive.org/download/Great_Guy.avi/Great_Guy_512kb.mp4",
+    "license": "",
+    "page": "https://archive.org/details/Great_Guy.avi"
+  },
+  {
+    "id": "WarOfTheWildcats-JohnWayne1943",
+    "title": "War of the Wildcats - John Wayne (1943)",
+    "year": 1943,
+    "minutes": 98,
+    "minAge": 10,
+    "moods": [
+      "exciting"
+    ],
+    "blurb": "War of the Wildcats or In Old Oklahoma (1943) â John Wayne\nJohn Wayne  as Daniel Somers\nMartha Scott  as Catherine Allen\nAlbert Dekker  as J",
+    "video": "https://archive.org/download/WarOfTheWildcats-JohnWayne1943/JohnWayne-WarOfTheWildcats1943_512kb.mp4",
+    "license": "http://creativecommons.org/licenses/publicdomain/",
+    "page": "https://archive.org/details/WarOfTheWildcats-JohnWayne1943"
+  },
+  {
+    "id": "Inner_Sanctum_movie",
+    "title": "Inner Sanctum",
+    "year": 1948,
+    "minutes": 62,
+    "minAge": 10,
+    "moods": [
+      "exciting"
+    ],
+    "blurb": "\nAn atmospheric film starring Charles Russell and Mary Beth Hughes.  Fritz Leiber, Sr. (father of the famous author) has a cameo as a seer o",
+    "video": "https://archive.org/download/Inner_Sanctum_movie/Inner_Sanctum_512kb.mp4",
+    "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "page": "https://archive.org/details/Inner_Sanctum_movie"
+  },
+  {
+    "id": "westofhotdog",
+    "title": "West of Hot Dog",
+    "year": 1924,
+    "minutes": 31,
+    "minAge": 10,
+    "moods": [
+      "funny",
+      "exciting"
+    ],
+    "blurb": "Silent western starring Stan Laurel before he teamed up with Oliver Hardy.\n\nNote: This movie can only be viewed properly using the VLC playe",
+    "video": "https://archive.org/download/westofhotdog/WestOfHotDog_512kb.mp4",
+    "license": "",
+    "page": "https://archive.org/details/westofhotdog"
+  },
+  {
+    "id": "Detour",
+    "title": "Detour",
+    "year": 1945,
+    "minutes": 68,
+    "minAge": 10,
+    "moods": [
+      "exciting"
+    ],
+    "blurb": "\"Man is involved in two freakish accidents that make him look like a murderer. Poverty row masterwork that is the most precise elucidation o",
+    "video": "https://archive.org/download/Detour/Detour_512kb.mp4",
+    "license": "http://creativecommons.org/licenses/publicdomain/",
+    "page": "https://archive.org/details/Detour"
+  },
+  {
+    "id": "AfricaScreams",
+    "title": "Africa Screams",
+    "year": 1949,
+    "minutes": 79,
+    "minAge": 6,
+    "moods": [
+      "funny"
+    ],
+    "blurb": "from IMDB.com:\n\"Abbott & Costello search for diamonds in Africa, along the way meeting a visually-impaired gunner, a hungry lion, and a trib",
+    "video": "https://archive.org/download/AfricaScreams/Africa_Screams_512kb.mp4",
+    "license": "http://creativecommons.org/licenses/publicdomain/",
+    "page": "https://archive.org/details/AfricaScreams"
+  }
+]

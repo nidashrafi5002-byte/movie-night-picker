@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import catalog from "./data/catalog.json";
 import { pickMovies } from "./logic/scoring.js";
 import { moveFocus } from "./logic/dpad.js";
@@ -6,7 +6,7 @@ import "./App.css";
 
 const MOODS = ["funny", "exciting", "relaxed", "scary"];
 const AGES = [5, 8, 12, 16, 30];
-const TIMES = [45, 90, 120, 180];
+const TIMES = [75, 90, 120, 180];
 
 export default function App() {
   const [people, setPeople] = useState([
@@ -14,43 +14,46 @@ export default function App() {
   ]);
   const [minutes, setMinutes] = useState(120);
   const [results, setResults] = useState(null);
-    // Remote control: arrows move focus, Back returns to the start screen
-  useEffect(() => {
-    function onKey(e) {
-      if (e.key.startsWith("Arrow")) {
-        e.preventDefault();
-        moveFocus(e.key);
-      } else if (
-        e.key === "Escape" ||
-        e.key === "Backspace" ||
-        e.key === "GoBack" ||
-        e.keyCode === 4
-      ) {
-        e.preventDefault();
-        setResults(null);
-      }
-    }
-    window.addEventListener("keydown", onKey);
-    return () => window.removeEventListener("keydown", onKey);
-  }, []);
+  const [playing, setPlaying] = useState(null);
+  const [videoError, setVideoError] = useState(false);
+  const videoRef = useRef(null);
 
-  // Put focus on the first button whenever the screen changes
+  // Remote control: arrows move focus, Back goes up one screen.
+  // The Android wrapper calls window.__handleBack and exits if it returns false.
   useEffect(() => {
-    document.querySelector("button")?.focus();
-  }, [results]);
-    // Lets the Android wrapper ask "did you handle Back?"
-  useEffect(() => {
-    window.__handleBack = () => {
+    function goBack() {
+      if (playing) {
+        setPlaying(null);
+        return true;
+      }
       if (results) {
         setResults(null);
         return true;
       }
       return false;
-    };
+    }
+    window.__handleBack = goBack;
+
+    function onKey(e) {
+      if (e.key.startsWith("Arrow")) {
+        e.preventDefault();
+        moveFocus(e.key);
+      } else if (e.key === "Escape" || e.key === "Backspace") {
+        e.preventDefault();
+        goBack();
+      }
+    }
+    window.addEventListener("keydown", onKey);
     return () => {
+      window.removeEventListener("keydown", onKey);
       delete window.__handleBack;
     };
-  }, [results]);
+  }, [playing, results]);
+
+  // Put focus on the first button whenever the screen changes
+  useEffect(() => {
+    document.querySelector("button")?.focus();
+  }, [results, playing]);
 
   function updatePerson(i, field, value) {
     setPeople(people.map((p, idx) => (idx === i ? { ...p, [field]: value } : p)));
@@ -66,6 +69,53 @@ export default function App() {
 
   function removePerson() {
     if (people.length > 1) setPeople(people.slice(0, -1));
+  }
+
+  function watch(movie) {
+    setVideoError(false);
+    setPlaying(movie);
+  }
+
+  function togglePlay() {
+    const v = videoRef.current;
+    if (!v) return;
+    if (v.paused) v.play();
+    else v.pause();
+  }
+
+  function seek(seconds) {
+    const v = videoRef.current;
+    if (v) v.currentTime = Math.max(0, v.currentTime + seconds);
+  }
+
+  if (playing) {
+    return (
+      <main className="screen">
+        <h2>
+          {playing.title} <span>({playing.year})</span>
+        </h2>
+        <video
+          ref={videoRef}
+          className="player"
+          src={playing.video}
+          autoPlay
+          onError={() => setVideoError(true)}
+        />
+        {videoError && (
+          <p className="card">
+            Can't play this film right now. Check your internet connection.
+          </p>
+        )}
+        <div className="row">
+          <button className="chip" onClick={togglePlay}>Play / Pause</button>
+          <button className="chip" onClick={() => seek(-10)}>-10s</button>
+          <button className="chip" onClick={() => seek(10)}>+10s</button>
+          <button className="chip" onClick={() => setPlaying(null)}>
+            Back to picks
+          </button>
+        </div>
+      </main>
+    );
   }
 
   if (results) {
@@ -85,6 +135,9 @@ export default function App() {
               </h2>
               <p>{m.blurb}</p>
               <p className="reason">{m.reason}</p>
+              <button className="chip" onClick={() => watch(m)}>
+                ▶ Watch
+              </button>
             </div>
           ))}
         </div>

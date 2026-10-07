@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
         val web = WebView(this)
         web.settings.javaScriptEnabled = true
         web.settings.domStorageEnabled = true
+        web.settings.mediaPlaybackRequiresUserGesture = false
         web.webViewClient = object : WebViewClient() {
             override fun shouldInterceptRequest(
                 view: WebView,
