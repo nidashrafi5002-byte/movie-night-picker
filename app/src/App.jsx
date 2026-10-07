@@ -38,6 +38,19 @@ export default function App() {
   useEffect(() => {
     document.querySelector("button")?.focus();
   }, [results]);
+    // Lets the Android wrapper ask "did you handle Back?"
+  useEffect(() => {
+    window.__handleBack = () => {
+      if (results) {
+        setResults(null);
+        return true;
+      }
+      return false;
+    };
+    return () => {
+      delete window.__handleBack;
+    };
+  }, [results]);
 
   function updatePerson(i, field, value) {
     setPeople(people.map((p, idx) => (idx === i ? { ...p, [field]: value } : p)));
