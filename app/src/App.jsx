@@ -118,7 +118,7 @@ export default function App() {
     );
   }
 
-  if (results) {
+    if (results) {
     return (
       <main className="screen">
         <h1>Tonight's picks</h1>
@@ -129,16 +129,24 @@ export default function App() {
         )}
         <div className="cards">
           {results.map((m) => (
-            <div className="card" key={m.id}>
-              <p className="tag">{m.tag}</p>
-              <h2>
-                {m.title} <span>({m.year})</span>
-              </h2>
-              <p>{m.blurb}</p>
-              <p className="reason">{m.reason}</p>
-              <button className="chip" onClick={() => watch(m)}>
-                ▶ Watch
-              </button>
+            <div className="card movie" key={m.id}>
+              <img
+                className="poster"
+                src={`https://archive.org/services/img/${m.id}`}
+                alt=""
+                onError={(e) => (e.currentTarget.style.display = "none")}
+              />
+              <div className="info">
+                <p className="tag">{m.tag}</p>
+                <h2>
+                  {m.title} <span>({m.year})</span>
+                </h2>
+                <p>{m.blurb}</p>
+                <p className="reason">{m.reason}</p>
+                <button className="chip" onClick={() => watch(m)}>
+                  ▶ Watch
+                </button>
+              </div>
             </div>
           ))}
         </div>

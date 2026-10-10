@@ -1,10 +1,122 @@
 [
-  {"id":"his-girl-friday","title":"His Girl Friday","year":1940,"minutes":92,"minAge":8,"moods":["funny","exciting"],"blurb":"Fast-talking newsroom comedy."},
-  {"id":"charade","title":"Charade","year":1963,"minutes":113,"minAge":10,"moods":["funny","exciting"],"blurb":"Romantic comedy-thriller in Paris."},
-  {"id":"the-general","title":"The General","year":1926,"minutes":78,"minAge":6,"moods":["funny","exciting"],"blurb":"Silent train-chase adventure."},
-  {"id":"sherlock-jr","title":"Sherlock Jr.","year":1924,"minutes":45,"minAge":5,"moods":["funny","relaxed"],"blurb":"Short, inventive silent comedy."},
-  {"id":"safety-last","title":"Safety Last!","year":1923,"minutes":70,"minAge":6,"moods":["funny","exciting"],"blurb":"The famous clock-tower climb."},
-  {"id":"a-trip-to-the-moon","title":"A Trip to the Moon","year":1902,"minutes":14,"minAge":5,"moods":["relaxed","funny"],"blurb":"Pioneering sci-fi short."},
-  {"id":"nosferatu","title":"Nosferatu","year":1922,"minutes":94,"minAge":13,"moods":["scary"],"blurb":"Classic silent vampire horror."},
-  {"id":"night-of-the-living-dead","title":"Night of the Living Dead","year":1968,"minutes":96,"minAge":16,"moods":["scary","exciting"],"blurb":"Landmark zombie horror."}
+  {
+    "id": "charlie_chaplin_film_fest", "title": "Charlie Chaplin Festival", "year": 1917,
+    "minutes": 77, "minAge": 6, "moods": ["funny"],
+    "blurb": "Four classic Chaplin comedy shorts.",
+    "video": "https://archive.org/download/charlie_chaplin_film_fest/charlie_chaplin_film_fest_512kb.mp4",
+    "license": "http://creativecommons.org/licenses/publicdomain/",
+    "page": "https://archive.org/details/charlie_chaplin_film_fest"
+  },
+  {
+    "id": "his_girl_friday", "title": "His Girl Friday", "year": 1940,
+    "minutes": 92, "minAge": 10, "moods": ["funny"],
+    "blurb": "Fast-talking newsroom comedy with Cary Grant.",
+    "video": "https://archive.org/download/his_girl_friday/his_girl_friday_512kb.mp4",
+    "license": "http://creativecommons.org/licenses/publicdomain/",
+    "page": "https://archive.org/details/his_girl_friday"
+  },
+  {
+    "id": "gullivers_travels1939", "title": "Gulliver's Travels", "year": 1939,
+    "minutes": 73, "minAge": 6, "moods": ["relaxed"],
+    "blurb": "Classic animated adventure for the whole family.",
+    "video": "https://archive.org/download/gullivers_travels1939/gullivers_travels1939_512kb.mp4",
+    "license": "http://creativecommons.org/licenses/publicdomain/",
+    "page": "https://archive.org/details/gullivers_travels1939"
+  },
+  {
+    "id": "lost_world", "title": "The Lost World", "year": 1925,
+    "minutes": 68, "minAge": 8, "moods": ["exciting"],
+    "blurb": "Silent-era expedition to a land of dinosaurs.",
+    "video": "https://archive.org/download/lost_world/lost_world_512kb.mp4",
+    "license": "http://creativecommons.org/licenses/publicdomain/",
+    "page": "https://archive.org/details/lost_world"
+  },
+  {
+    "id": "ThePhantomoftheOpera", "title": "The Phantom of the Opera", "year": 1925,
+    "minutes": 106, "minAge": 12, "moods": ["scary"],
+    "blurb": "The silent horror classic from the Paris Opera.",
+    "video": "https://archive.org/download/ThePhantomoftheOpera/Phantom_of_the_Opera_512kb.mp4",
+    "license": "http://creativecommons.org/licenses/publicdomain/",
+    "page": "https://archive.org/details/ThePhantomoftheOpera"
+  },
+  {
+    "id": "my_favorite_brunette", "title": "My Favorite Brunette", "year": 1947,
+    "minutes": 87, "minAge": 8, "moods": ["funny"],
+    "blurb": "Bob Hope plays a baby photographer tangled in a mystery.",
+    "video": "https://archive.org/download/my_favorite_brunette/my_favorite_brunette_512kb.mp4",
+    "license": "http://creativecommons.org/licenses/publicdomain/",
+    "page": "https://archive.org/details/my_favorite_brunette"
+  },
+  {
+    "id": "TheFlyingDeuces", "title": "The Flying Deuces", "year": 1939,
+    "minutes": 68, "minAge": 6, "moods": ["funny"],
+    "blurb": "Laurel and Hardy join the Foreign Legion and take to the skies.",
+    "video": "https://archive.org/download/TheFlyingDeuces/The_Flying_Deuces_512kb.mp4",
+    "license": "http://creativecommons.org/licenses/publicdomain/",
+    "page": "https://archive.org/details/TheFlyingDeuces"
+  },
+  {
+    "id": "royal_wedding", "title": "Royal Wedding", "year": 1951,
+    "minutes": 92, "minAge": 6, "moods": ["funny", "relaxed"],
+    "blurb": "Fred Astaire dances his way through a musical romance in London.",
+    "video": "https://archive.org/download/royal_wedding/royal_wedding_512kb.mp4",
+    "license": "http://creativecommons.org/licenses/publicdomain/",
+    "page": "https://archive.org/details/royal_wedding"
+  },
+  {
+    "id": "mclintok_widescreen", "title": "McLintock!", "year": 1963,
+    "minutes": 127, "minAge": 10, "moods": ["funny", "exciting"],
+    "blurb": "John Wayne stars in a big, brawling comedy western.",
+    "video": "https://archive.org/download/mclintok_widescreen/McLintock_512kb.mp4",
+    "license": "http://creativecommons.org/licenses/publicdomain/",
+    "page": "https://archive.org/details/mclintok_widescreen"
+  },
+  {
+    "id": "iron_mask", "title": "The Iron Mask", "year": 1929,
+    "minutes": 72, "minAge": 8, "moods": ["exciting"],
+    "blurb": "Douglas Fairbanks stars in a swashbuckling Dumas adventure.",
+    "video": "https://archive.org/download/iron_mask/iron_mask_512kb.mp4",
+    "license": "http://creativecommons.org/licenses/publicdomain/",
+    "page": "https://archive.org/details/iron_mask"
+  },
+  {
+    "id": "mr_robinson_crusoe", "title": "Mr. Robinson Crusoe", "year": 1932,
+    "minutes": 71, "minAge": 8, "moods": ["funny", "exciting"],
+    "blurb": "A bet sends a daring adventurer to survive on a desert island.",
+    "video": "https://archive.org/download/mr_robinson_crusoe/mr._robinson_crusoe_512kb.mp4",
+    "license": "http://creativecommons.org/licenses/publicdomain/",
+    "page": "https://archive.org/details/mr_robinson_crusoe"
+  },
+  {
+    "id": "amazing_adventure", "title": "The Amazing Adventure", "year": 1936,
+    "minutes": 62, "minAge": 8, "moods": ["funny", "relaxed"],
+    "blurb": "Cary Grant bets he can earn his living for a year with no money.",
+    "video": "https://archive.org/download/amazing_adventure/amazing_adventuarchive_512kb.mp4",
+    "license": "http://creativecommons.org/licenses/publicdomain/",
+    "page": "https://archive.org/details/amazing_adventure"
+  },
+  {
+    "id": "The_Pied_Piper_of_Hamelin", "title": "The Pied Piper of Hamelin", "year": 1957,
+    "minutes": 23, "minAge": 6, "moods": ["relaxed"],
+    "blurb": "A short musical retelling of the classic fairy tale.",
+    "video": "https://archive.org/download/The_Pied_Piper_of_Hamelin/pied_512kb.mp4",
+    "license": "http://creativecommons.org/licenses/publicdomain/",
+    "page": "https://archive.org/details/The_Pied_Piper_of_Hamelin"
+  },
+  {
+    "id": "dressed_to_kill", "title": "Dressed to Kill", "year": 1946,
+    "minutes": 72, "minAge": 10, "moods": ["exciting"],
+    "blurb": "Basil Rathbone's Sherlock Holmes hunts a hidden code.",
+    "video": "https://archive.org/download/dressed_to_kill/dressed_to_kill_512kb.mp4",
+    "license": "http://creativecommons.org/licenses/publicdomain/",
+    "page": "https://archive.org/details/dressed_to_kill"
+  },
+  {
+    "id": "house_on_haunted_hill_ipod", "title": "House on Haunted Hill", "year": 1959,
+    "minutes": 75, "minAge": 12, "moods": ["scary", "exciting"],
+    "blurb": "Five guests try to survive a night in a haunted mansion.",
+    "video": "https://archive.org/download/house_on_haunted_hill_ipod/house_on_haunted_hill_512kb.mp4",
+    "license": "http://creativecommons.org/licenses/publicdomain/",
+    "page": "https://archive.org/details/house_on_haunted_hill_ipod"
+  }
 ]
