@@ -9,6 +9,14 @@ const people = [
   { name: "Mia", age: 8, mood: "relaxed" },
   { name: "Dad", age: 30, mood: "exciting" },
 ];
-for (const m of pickMovies(people, 120, catalog)) {
-  console.log(`${m.title} [${m.tag}]\n  ${m.reason}\n`);
+
+function show(label, streaks) {
+  console.log(`--- ${label} ---`);
+  for (const m of pickMovies(people, 120, catalog, streaks)) {
+    console.log(`${m.title} [${m.tag}]\n  ${m.reason}`);
+  }
+  console.log();
 }
+
+show("No history", {});
+show("Mia lost out two nights in a row", { Mia: 2 });

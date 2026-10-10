@@ -7,16 +7,40 @@ import "./App.css";
 const MOODS = ["funny", "exciting", "relaxed", "scary"];
 const AGES = [5, 8, 12, 16, 30];
 const TIMES = [75, 90, 120, 180];
+const NAMES = ["Mom", "Dad", "Grandma", "Grandpa", "Alex", "Sam", "Mia", "Leo"];
+
+function load(key, fallback) {
+  try {
+    const v = localStorage.getItem(key);
+    return v ? JSON.parse(v) : fallback;
+  } catch {
+    return fallback;
+  }
+}
+
+function save(key, value) {
+  try {
+    localStorage.setItem(key, JSON.stringify(value));
+  } catch {
+    /* storage unavailable: app still works without memory */
+  }
+}
 
 export default function App() {
-  const [people, setPeople] = useState([
-    { name: "Person 1", age: 30, mood: "funny" },
-  ]);
+  const [people, setPeople] = useState(() =>
+    load("mnp.household", [{ name: NAMES[0], age: 30, mood: "funny" }])
+  );
+  const [streaks, setStreaks] = useState(() => load("mnp.streaks", {}));
   const [minutes, setMinutes] = useState(120);
   const [results, setResults] = useState(null);
   const [playing, setPlaying] = useState(null);
   const [videoError, setVideoError] = useState(false);
   const videoRef = useRef(null);
+  const countedRef = useRef(false);
+
+  useEffect(() => {
+    save("mnp.household", people);
+  }, [people]);
 
   // Remote control: arrows move focus, Back goes up one screen.
   // The Android wrapper calls window.__handleBack and exits if it returns false.
@@ -61,17 +85,37 @@ export default function App() {
 
   function addPerson() {
     if (people.length >= 6) return;
-    setPeople([
-      ...people,
-      { name: `Person ${people.length + 1}`, age: 30, mood: "funny" },
-    ]);
+    const name = NAMES.find((n) => !people.some((p) => p.name === n)) || "Guest";
+    setPeople([...people, { name, age: 30, mood: "funny" }]);
   }
 
   function removePerson() {
     if (people.length > 1) setPeople(people.slice(0, -1));
   }
 
+  function findMovie() {
+    countedRef.current = false;
+    setResults(pickMovies(people, minutes, catalog, streaks));
+  }
+
+  function resetMemory() {
+    setStreaks({});
+    save("mnp.streaks", {});
+  }
+
   function watch(movie) {
+    // Count the night once: whoever the film did not match gets priority next time
+    if (!countedRef.current) {
+      countedRef.current = true;
+      const next = { ...streaks };
+      for (const p of people) {
+        next[p.name] = movie.happy.includes(p.name)
+          ? 0
+          : Math.min((next[p.name] || 0) + 1, 3);
+      }
+      setStreaks(next);
+      save("mnp.streaks", next);
+    }
     setVideoError(false);
     setPlaying(movie);
   }
@@ -118,7 +162,7 @@ export default function App() {
     );
   }
 
-    if (results) {
+  if (results) {
     return (
       <main className="screen">
         <h1>Tonight's picks</h1>
@@ -157,13 +201,33 @@ export default function App() {
     );
   }
 
+  const priority = people.filter((p) => (streaks[p.name] || 0) > 0).map((p) => p.name);
+
   return (
     <main className="screen">
       <h1>Movie Night Picker</h1>
+      {priority.length > 0 && (
+        <p className="hint">Priority tonight: {priority.join(", ")}</p>
+      )}
 
       {people.map((p, i) => (
         <section className="person" key={i}>
           <h2>{p.name}</h2>
+          <div className="row">
+            <span className="label">Who</span>
+            {NAMES.map((n) => {
+              const taken = people.some((q, idx) => q.name === n && idx !== i);
+              return (
+                <button
+                  key={n}
+                  className={`chip ${p.name === n ? "selected" : ""} ${taken ? "disabled" : ""}`}
+                  onClick={() => !taken && updatePerson(i, "name", n)}
+                >
+                  {n}
+                </button>
+              );
+            })}
+          </div>
           <div className="row">
             <span className="label">Age</span>
             {AGES.map((a) => (
@@ -194,6 +258,7 @@ export default function App() {
       <div className="row">
         <button className="chip" onClick={addPerson}>+ Add person</button>
         <button className="chip" onClick={removePerson}>- Remove person</button>
+        <button className="chip" onClick={resetMemory}>Reset fairness memory</button>
       </div>
 
       <div className="row">
@@ -209,10 +274,7 @@ export default function App() {
         ))}
       </div>
 
-      <button
-        className="big"
-        onClick={() => setResults(pickMovies(people, minutes, catalog))}
-      >
+      <button className="big" onClick={findMovie}>
         Find my movie
       </button>
     </main>
